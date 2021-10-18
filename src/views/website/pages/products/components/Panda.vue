@@ -1,11 +1,14 @@
 <template>
-  <div>
+  <div class="panda">
     <b-container>
-      <b-row class="m-5">
+      <b-row class="my-5 ">
         <b-col cols="12">
-          <div class="panda-header rounded m-auto p-3">
+          <div
+            data-aos="fade-down"
+            class="  panda-header rounded m-auto p-3 px-5"
+          >
             <b-row>
-              <b-col>
+              <b-col cols="12" md="6" data-aos="fade-left">
                 <div
                   class="text h-100 d-flex flex-column justify-content-center"
                 >
@@ -15,12 +18,8 @@
                       أنا و الباندا
                     </h1>
                     <p class="mt-3">
-                      سلسةٌ مكوَّنةٌ منْ ثلاثِ مستوياتٍ لمرحلةِ رياضِ الأطفالِ.
-                      تتكوَّنُ المجموعةُ الكاملةُ مِنْ تسعِ كُتبٍ، ثلاثةُ كتبٍ
-                      لكُلِّ طفولةٍ. . تقدَّمُ هذهِ الكتبُ المفاهيمَ الأساسيّةَ
-                      للأطفالِ، واللّغويّةَ والعلميّةَ والرِّياضيةَ. وهِي
-                      مُدعَّمة وغنية بالصُّورِ الجّذَّابةِ المُلائمة للفِئاتِ
-                      العمريّة
+                      منهج شامل متكامل لجيل واعد متعلم ... وهو منهج يساعد المعلم
+                      والمربي على تعليم الأطفال بطريقة تفاعلية ممتعة...
                     </p>
                     <b-button variant="custom-yello" class="rounded-pill">
                       عرض العناصر
@@ -28,7 +27,7 @@
                   </div>
                 </div>
               </b-col>
-              <b-col>
+              <b-col cols="12" md="6" data-aos="fade-right">
                 <div
                   class="d-flex w-100 align-items-center justify-content-end"
                 >
@@ -725,18 +724,23 @@
           </div>
         </b-col>
       </b-row>
-      <section class="my-5 ftrs">
+    </b-container>
+
+<div class="svg-container">
+
+    <section class="my-5 ftrs">
+      <b-container>
         <b-row>
           <b-col cols="12" class="my-3">
             <h3 class="text-custom-yello text-center">
-              <strong> الأساليب المتبعة </strong>
+               الأساليب المتبعة 
             </h3>
 
             <p class="text-center">
               يتيح انا والباند فرصا للتعلم عن طريق وسائل متنوعة
             </p>
           </b-col>
-          <b-col>
+          <b-col cols="6" md="3" data-aos="fade-up-left">
             <div
               class="
                 d-flex
@@ -752,7 +756,7 @@
               <h5 class="mt-4">أناشيد جميلة</h5>
             </div>
           </b-col>
-          <b-col>
+          <b-col cols="6" md="3" data-aos="fade-up-left">
             <div
               class="
                 d-flex
@@ -768,7 +772,7 @@
               <h5 class="mt-4">العاب مسلية</h5>
             </div>
           </b-col>
-          <b-col>
+          <b-col cols="6" md="3" data-aos="fade-up-right">
             <div
               class="
                 d-flex
@@ -787,7 +791,7 @@
               <h5 class="mt-4">قصص مشوقة</h5>
             </div>
           </b-col>
-          <b-col>
+          <b-col cols="6" md="3" data-aos="fade-up-right">
             <div
               class="
                 d-flex
@@ -807,21 +811,29 @@
             </div>
           </b-col>
         </b-row>
-      </section>
- 
-      <section class="exper my-5">
-        <h3 class="my-2 text-yello text-center">
-          <strong> الخبرات التي يتضمنها المنهج </strong>
-        </h3>
-        <p class="text-center">
-          يتميّز المنهج كذلك بشموليّته للمهاراتِ الأساسيّة ; قراءة كتابة عُلوم
-          وحساب، ضمنَ نِظام الخِبراتِ التَّعليميّة المُتكاملة الشَّاملة
-        </p>
-
+      </b-container>
+    </section>
+    <section class="exper my-5 py-5">
+      <b-container>
+        <div data-aos="zoom-in-up">
+          <h3 class="my-2 text-custom-dark text-center">
+            الخبرات التي يتضمنها المنهج
+          </h3>
+          <p class="text-center">
+            يتميّز المنهج كذلك بشموليّته للمهاراتِ الأساسيّة ; قراءة كتابة عُلوم
+            وحساب، ضمنَ نِظام الخِبراتِ التَّعليميّة المُتكاملة الشَّاملة
+          </p>
+        </div>
         <b-row>
           <b-col cols="12">
             <b-row>
-              <b-col cols="4">
+              <b-col
+                cols="12"
+                md="6"
+                lg="4"
+                data-aos="fade-left"
+                data-aos-duration="700"
+              >
                 <div class="d-flex align-items-center exper-card">
                   <div class="exper-icon d-flex clr1 align-items-center">
                     <fa icon="fas fa-users"></fa>
@@ -829,7 +841,13 @@
                   <h5>أنا والناس الاخرون</h5>
                 </div>
               </b-col>
-              <b-col cols="4">
+              <b-col
+                cols="12"
+                md="6"
+                lg="4"
+                data-aos="zoom-in"
+                data-aos-duration="700"
+              >
                 <div class="d-flex align-items-center exper-card">
                   <div class="exper-icon d-flex clr2 align-items-center">
                     <fa icon="fas fa-heart-pulse"></fa>
@@ -837,7 +855,13 @@
                   <h5>صحتي وسلامتي</h5>
                 </div></b-col
               >
-              <b-col cols="4">
+              <b-col
+                cols="12"
+                md="6"
+                lg="4"
+                data-aos="fade-right"
+                data-aos-duration="700"
+              >
                 <div class="d-flex align-items-center exper-card">
                   <div class="exper-icon d-flex align-items-center clr3">
                     <fa icon="fas fa-globe"></fa>
@@ -845,7 +869,7 @@
                   <h5>عالمي الكبير</h5>
                 </div></b-col
               >
-              <b-col cols="6">
+              <b-col cols="12" md="6" lg="6" data-aos="zoom-out-up">
                 <div class="d-flex align-items-center exper-card">
                   <div class="exper-icon d-flex align-items-center clr4">
                     <fa icon="fas fa-house"></fa>
@@ -853,7 +877,7 @@
                   <h5>وطني الحبيب</h5>
                 </div></b-col
               >
-              <b-col cols="6">
+              <b-col cols="12" lg="6" data-aos="zoom-out-up">
                 <div class="d-flex align-items-center exper-card">
                   <div class="exper-icon d-flex align-items-center clr5">
                     <fa icon="fas fa-wifi"></fa>
@@ -864,23 +888,310 @@
             </b-row>
           </b-col>
         </b-row>
-      </section>
-    </b-container>
+      </b-container>
+    </section>
+
+    <section class="levels my-3">
+      <b-container>
+        <b-row>
+          <b-col sm="12" md="6 ">
+            <div class=" h-100 d-flex flex-column justify-content-center" data-aos='zoom-in-up'>
+              <h3 class="text-sm-center">وستكون على ثلاث مراحل</h3>
+              <p class="text-sm-center">
+                تتكون السلسلة من ثلاث مستويات لمرحلة رياض الاطفال تتكون المجموعة
+                الكاملة من <span class="text-yello">تسع كتب</span>
+                ثلاث كتب لكل طفولة تقدم هذه الكتب المفاهيم الأساسية للأطفال وهي
+                مدعمة وغنية بالصور الجذابة الملائمة للفئات العمرية
+              </p>
+            </div>
+          </b-col>
+
+          <b-col sm="12" md="6">
+            <b-row class="m-auto">
+              <!--r arr -->
+              <b-col data-aos="fade-down-left" data-aos-duration="2200" cols="4"
+                ><svg
+                  class="position-relative r-arr"
+                  width="117"
+                  height="100"
+                  viewBox="0 0 117 100"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M106.781 100L98.8646 84.5947L116.164 85.4412L106.781 100ZM105.265 87.8688C105.076 85.2921 104.766 82.6163 104.32 79.8716L107.282 79.3908C107.742 82.2228 108.061 84.9856 108.257 87.6484L105.265 87.8688ZM102.692 71.9869C102.052 69.4407 101.291 66.8631 100.397 64.2755L103.232 63.2958C104.155 65.9677 104.941 68.6282 105.602 71.2554L102.692 71.9869ZM97.4375 56.7994C96.3581 54.3927 95.1542 51.9956 93.8166 49.6253L96.4293 48.1509C97.8137 50.6042 99.0589 53.0838 100.175 55.5717L97.4375 56.7994ZM89.5411 42.8233C88.0321 40.6597 86.3968 38.5341 84.6274 36.4609L86.9094 34.5134C88.7436 36.6626 90.4383 38.8655 92.0017 41.1071L89.5411 42.8233ZM79.1316 30.6257C77.2399 28.8045 75.2253 27.0398 73.0815 25.3432L74.9432 22.9908C77.1638 24.7481 79.2514 26.5766 81.2123 28.4644L79.1316 30.6257ZM66.5543 20.6619C64.3577 19.2368 62.0469 17.8776 59.6167 16.5934L61.0184 13.941C63.5272 15.2667 65.9152 16.6712 68.1871 18.1452L66.5543 20.6619ZM52.3561 13.1409C49.9434 12.1133 47.4282 11.1541 44.8067 10.2701L45.7653 7.4274C48.4589 8.33571 51.0465 9.32235 53.5316 10.3807L52.3561 13.1409ZM37.0753 7.96818C34.5427 7.30896 31.9217 6.71525 29.2095 6.19198L29.7778 3.2463C32.5515 3.78144 35.235 4.3892 37.831 5.06491L37.0753 7.96818ZM21.2316 4.89571C18.6254 4.54825 15.9428 4.26196 13.1818 4.04048L13.4217 1.05009C16.2337 1.27565 18.9685 1.56745 21.6281 1.92203L21.2316 4.89571ZM5.09083 3.58761C3.73943 3.54355 2.37073 3.5142 0.984543 3.49992L1.01546 0.50008C2.42363 0.514588 3.81461 0.544409 5.18858 0.589198L5.09083 3.58761Z"
+                    fill="#777777"
+                  />
+                </svg>
+              </b-col>
+              <!-- akg 2 -->
+              <b-col cols="4" data-aos="fade-down" data-aos-duration="1800">
+                <div
+                  class="          
+                    level-card
+                    m-auto
+                    p-2
+                    flex-column
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                >
+                  <h5>الطفولة الثانية</h5>
+                  <p>من 4 الى 5 سنوات</p>
+                </div>
+              </b-col>
+              <!-- left arr  -->
+              <b-col
+                data-aos="fade-down-right"
+                data-aos-duration="1400"
+                cols="4"
+                ><svg
+                  class="position-relative l-arr"
+                  width="100"
+                  height="109"
+                  viewBox="0 0 100 109"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M100 10.2021L84.6162 18.1607L85.4158 0.858663L100 10.2021ZM88.3389 11.6859C85.858 11.8424 83.2827 12.1015 80.6404 12.4769L80.2184 9.50674C82.9389 9.1202 85.592 8.85323 88.15 8.69183L88.3389 11.6859ZM73.0248 13.8576C70.5559 14.4034 68.0545 15.0537 65.5403 15.8184L64.6674 12.9482C67.2584 12.1602 69.8351 11.4903 72.3772 10.9283L73.0248 13.8576ZM58.2378 18.3631C55.8716 19.2971 53.5116 20.3402 51.1739 21.5004L49.8402 18.8131C52.2567 17.6138 54.6944 16.5366 57.1362 15.5726L58.2378 18.3631ZM44.4184 25.2334C42.253 26.5601 40.1221 27.9997 38.0395 29.5591L36.2413 27.1577C38.4008 25.5407 40.6089 24.0491 42.8511 22.6753L44.4184 25.2334ZM32.0969 34.4701C30.2263 36.1745 28.4108 37.9927 26.6621 39.9309L24.4347 37.9213C26.2502 35.9091 28.1349 34.0216 30.0763 32.2526L32.0969 34.4701ZM21.7899 45.8919C20.2912 47.9189 18.8598 50.0557 17.5055 52.3074L14.9347 50.7611C16.3382 48.4276 17.8225 46.2117 19.3776 44.1084L21.7899 45.8919ZM13.8397 59.0868C12.7457 61.3472 11.7234 63.708 10.7801 66.173L7.97822 65.1008C8.95164 62.5571 10.0078 60.118 11.1393 57.78L13.8397 59.0868ZM8.30201 73.5184C7.59279 75.9267 6.95374 78.4233 6.39044 81.0112L3.45908 80.3732C4.03739 77.7163 4.69421 75.1497 5.42421 72.6709L8.30201 73.5184ZM4.99673 88.6244C4.62317 91.1148 4.31542 93.6816 4.07759 96.3269L1.08965 96.0583C1.33264 93.3555 1.64735 90.7298 2.02992 88.1794L4.99673 88.6244ZM3.59263 104.081C3.54576 105.376 3.51472 106.687 3.4999 108.017L0.500089 107.983C0.515178 106.629 0.546807 105.292 0.594592 103.973L3.59263 104.081Z"
+                    fill="#777777"
+                  />
+                </svg>
+              </b-col>
+              <!-- akg3 -->
+              <b-col cols="4" data-aos="fade-left" data-aos-duration="2600">
+                <div
+                  class="
+                    level-card
+                    p-2
+                    d-flex
+                    flex-column
+                    align-items-center
+                    justify-content-center
+                  "
+                >
+                  <h5>الطفولة الثالثة</h5>
+                  <p>من 5 الى 6 سنوات</p>
+                </div></b-col
+              >
+              <b-col cols="4"></b-col>
+              <!-- akg1 -->
+              <b-col cols="4" data-aos="fade-right" data-aos-duration="800">
+                <div
+                  class="
+                    level-card
+                    p-2
+                    d-flex
+                    flex-column
+                    align-items-center
+                    justify-content-center
+                  "
+                >
+                  <h5>الطفولة الأولى</h5>
+                  <p>من 3 الى 4 سنوات</p>
+                </div></b-col
+              >
+            </b-row>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+</div>
+
+<div class="svg-bg2" :class="scrolledTo?'animated':''">
+
+    <section class="why-collection my-5">
+      <b-container>
+        <b-row>
+          <b-col cols="12" md='6'>
+            <h3 class="my-2" data-aos="zoom-in">اهمية هذه المجموعة</h3>
+            <ul style="list-style:none;" class="m-0 p-0">
+              <li data-aos="fade-left" data-aos-duration="500">
+                <fa icon="fas fa-check"></fa>تثري القاموس اللغوي للطفل
+              </li>
+              <li data-aos="fade-left" data-aos-duration="600">
+                <fa icon="fas fa-check"></fa>تربط مابين الكلمات , والمفاهيم
+                المحسوسة
+              </li>
+              <li data-aos="fade-left" data-aos-duration="700">
+                <fa icon="fas fa-check"></fa>تعرف الأطفال على مفاهيم مختلفة في
+                انحاء العالم
+              </li>
+              <li data-aos="fade-left" data-aos-duration="800">
+                <fa icon="fas fa-check"></fa>تهيئ الطفل في مرحلة الروضة علميا
+                ولغويا واجتماعيا
+              </li>
+              <li data-aos="fade-left" data-aos-duration="900">
+                <fa icon="fas fa-check"></fa>تشجع الأطفال على استكشاف أشياء
+                جديدة , ومثيرة في محيطهم
+              </li>
+              <li data-aos="fade-left" data-aos-duration="1000">
+                <fa icon="fas fa-check"></fa>تشجع الأطفال على عمليات الكتابة
+                والقراءة والحساب
+              </li>
+            </ul>
+          </b-col>
+          <b-col cols="12" md="6"  class="my-4 my-md-0 " data-aos="zoom-in">
+            <div class="d-flex w-100 aling-items-center justify-content-center">
+              <b-img
+                src="/images/pandabag.svg"
+                style="height:300px;"
+                class="m-auto"
+              ></b-img>
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+<div class="svg-bg3">
+  
+    <section class="the-products my-5">
+      <h3 class="text-custom-yello text-center" data-aos="zoom-in">
+        ماذا يحتوي كل مستوى ؟
+      </h3>
+      <b-container>
+        <b-row>
+          <b-col data-aos="zoom-in-left" cols="12" md="6" class="my-3">
+            <b-card body-class="p-0" class="border-custom-yello shadow">
+              <b-row>
+                <b-col>
+                  <div class="caption h-100 ">
+                    <h4 class="text-center ">كتاب الطالب</h4>
+                    <span class="text-center  ">ملون وجذاب بطريقة عرضهِ.</span>
+                  </div>
+                </b-col>
+
+                <b-col>
+                  <books :images="mainBooks" class="my-4"></books>
+                </b-col>
+              </b-row>
+            </b-card>
+          </b-col>
+
+          <b-col data-aos="zoom-in-right" cols="12" md="6" class="my-3">
+            <b-card body-class="p-0" class="border-custom-yello shadow">
+              <b-row>
+                <b-col>
+                  <div class="caption h-100 ">
+                    <h4 class="text-center ">لغتي + علومي وحسابي</h4>
+                    <span class="text-center">
+                      كتابين للأنشطة والتمارين الممتعة</span
+                    >
+                  </div>
+                </b-col>
+                <b-col>
+                  <books :images="lang" class="my-4"></books>
+                </b-col>
+              </b-row>
+            </b-card>
+          </b-col>
+
+          <b-col data-aos="zoom-in-left" cols="12" md="6" class="my-3">
+            <b-card body-class="p-0" class="border-custom-yello shadow">
+              <b-row>
+                <b-col>
+                  <div class="caption h-100 ">
+                    <h4 class="text-center ">دليل معلم اجرائي نظري</h4>
+                    <span class="text-center"
+                      >غني بالملحوظاتِ التَّدريسيَّةِ النَّافعةِ، ومُزوَّدًا
+                      بِمُلحَقِ الاختباراتِ، والتَّقويماتِ اللازمةِ طول العامِّ
+                    </span>
+                  </div>
+                </b-col>
+                <b-col>
+                  <books :images="teacher" class="my-4"></books>
+                </b-col>
+              </b-row>
+            </b-card>
+          </b-col>
+
+          <b-col data-aos="zoom-in-right" cols="12" md="6" class="my-3">
+            <b-card body-class="p-0" class="border-custom-yello shadow">
+              <b-row>
+                <b-col>
+                  <div class="caption h-100 ">
+                    <h4 class="text-center ">دفتر الانشطة</h4>
+                    <span class="text-center"
+                      >دفتر للواجباتِ المنزليّةِ والمُتابعةِ من المُربيّ
+                    </span>
+                  </div>
+                </b-col>
+                <b-col>
+                  <books :images="train" class="my-4"></books>
+                </b-col>
+              </b-row>
+            </b-card>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+</div>
+
+</div>
+
+
+    <the-footer></the-footer>
   </div>
 </template>
 
 <script>
-export default {};
+
+import TheFooter from '../../../components/Footer.vue'
+
+import AOS from "aos";
+import Books from "./Books.vue";
+export default {
+  components: {
+    Books,
+    TheFooter
+    
+  },
+  data() {
+    return {
+      scrolledTo:false,
+      mainBooks: [
+        "/images/mainBook1.png",
+        "/images/mainBook2.png",
+        "/images/mainBook3.png",
+      ],
+      lang: ["/images/sience.png", "/images/lang.png", "/images/sience.png"],
+      teacher: [
+        "/images/teacher1.png",
+        "/images/teacher1.png",
+        "/images/teacher1.png",
+      ],
+      train: ["/images/train.png", "/images/train.png", "/images/train.png"],
+    };
+  },
+  created() {
+    AOS.init();
+    window.addEventListener('scroll',()=>{
+      this.scrolledTo = window.scrollY > 1400;
+ 
+    })
+  },
+};
 </script>
 
-<style scoped lang='scss'>
+<style scoped lang="scss">
+h3 {
+  color: #444444 !important;
+}
+p {
+  color: #777 !important;
+}
+.panda {
+  overflow: hidden;
+}
 h5 {
   color: #777;
   transition: 0.5s;
 }
 .panda-header {
-  width:100%;
-border-radius: 15px !important;
+  width: 100%;
+  border-radius: 15px !important;
   background: #ffffff;
   box-shadow: inset 0px 0px 80px 15px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
@@ -892,6 +1203,7 @@ border-radius: 15px !important;
 p {
   line-height: 2.1;
 }
+
 .ftrs {
   h5 {
     text-align: center;
@@ -938,9 +1250,6 @@ p {
   }
 }
 
-.svg-bg{
-  stroke: #2b2b2b;
-}
 
 .exper {
   .exper-icon {
@@ -1038,4 +1347,125 @@ p {
     box-shadow: 0px 0px 5px 2px #ec6608;
   }
 }
+.levels {
+  .level-card {
+    height: 150px;
+    width: 150px;
+    p,
+    h5 {
+      margin: 0;
+      text-align: center;
+    }
+    @media (max-width: 767px) {
+      width: 100px;
+      height: 100px;
+      padding: 0 !important;
+
+      h5 {
+        font-size: 12px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+
+    background: #ffffff;
+    border: 6px solid #ffd400;
+    box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.25),
+      inset 0px 0px 5px 5px rgb(0 0 0 / 15%);
+    border-radius: 15px;
+  }
+  .l-arr {
+    top: 25px;
+    left: 15px;
+  }
+  .r-arr {
+    top: 25px;
+    right: 45px;
+  }
+  @media (max-width: 767px) {
+    .l-arr,
+    .r-arr {
+      height: 75px !important;
+    }
+    .l-arr {
+      top: 15px;
+      left: 15px;
+    }
+    .r-arr {
+      top: 15px;
+      right: 5px;
+    }
+  }
+}
+.why-collection {
+  li {
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #777 !important;
+    svg {
+      background-color: green !important;
+      color: #fff;
+      padding: 3px;
+      height: 20px;
+      border-radius: 50%;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h4 {
+    color: #444444;
+  }
+  span {
+    color: #777;
+  }
+}
+
+.svg-bg2{
+  padding: 100px 0;
+  background-image: url('/images/bg2.svg');
+    // background-position-x: center;
+     background-repeat: no-repeat;
+  background-size: 150vw;
+  transition: 1s;
+}
+.svg-bg3{
+  background-image: url('/images/bg3.svg');
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  background-size: 100vw;
+  background-size: 130vw;
+  background-position: center;
+}
+.animated{
+  background-size: 100vw;
+ }
+
+.svg-container{
+  background-image: url('/images/bg1.svg');
+    background-position: center;
+    background-size: 150vw;
+    background-repeat: no-repeat;
+     @media (max-width:767px) {
+    background-size: 1200px;
+    background-position-x: 80%;
+  }
+}
+.the-products{
+  .card{
+    border-radius: 25px !important;
+    border: #ffd400 solid 5px;
+  }
+}
+ 
 </style>

@@ -4,33 +4,33 @@
       <b-row>
         <b-col cols="12" md="6">
           <div class="d-flex flex-column">
-            <h2 class="text-dark">من نحن <span class="text-yello"> ؟</span></h2>
+            <h2 class="text-dark">رسالتنا</h2>
             <p>
-              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
-              هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
-              العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
-              التطبيق.
+            نقدم كل ما يخدم عمليتي التعليم والبحث العلمي ويخلق الشغف بهما. نشارك في جمع المحتوى العلمي وتطويره ونقدمه بأسلوب حديث وتصاميم مبتكرة وجذابة
             </p>
           </div>
           <div class="d-flex flex-column">
-            <h2 class="text-dark">اهدافنا</h2>
+            <h2 class="text-dark">رؤيتنا</h2>
+            <p>
+كتبنا ومنتجاتنا الورقية والالكترونية منتشرة عالميا كمواد ووسائل تعليم فعالة وأدوات بحث علمي موثوق
+
+            </p>
+          </div>
+
+          <div class="d-flex flex-column">
+            <h2 class="text-dark">قيمنا</h2>
             <ul class="p-0">
               <li class="p-2">
                 <span class="mdi mdi-note-text text-yello"></span>
-
-                نشر العلم والمعرفة
+                الأمانة العلمية
               </li>
               <li class="p-2">
                 <span class="mdi mdi-emoticon text-yello"></span> توفير الدعم
-                للمناهج المختلفة
-              </li>
-              <li class="p-2">
-                <span class="mdi mdi-book-open-variant text-yello"></span>تسهيل
-                الوصول للمطبوعات
+                المشاركة والعمل المؤسساتي
               </li>
               <li class="p-2">
                 <span class="mdi mdi-account-group text-yello"> </span> زيادة
-                عدد القراء في المنطقة
+                الابداع والأصالة
               </li>
             </ul>
           </div>
@@ -1495,7 +1495,8 @@ export default {};
 <style lang='scss'>
 .about {
   p {
-    color: #777;
+    color: #8f8f8f;
+    
   }
   span{
       font-size: 24px !important;
@@ -1504,7 +1505,8 @@ export default {};
   ul {
     list-style: none;
     li {
-      font-size: 20px;
+      font-size: 16px;
+      color: #8f8f8f !important;
     }
 
   }

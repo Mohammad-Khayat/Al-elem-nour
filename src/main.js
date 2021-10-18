@@ -7,11 +7,12 @@ import store from './store'
 import bootstrapVue  from 'bootstrap-vue'
 import './assets/style.scss'
 import '@mdi/font/css/materialdesignicons.css'
-
+import "aos/dist/aos.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 /* import specific icons */
 import {
+  faCheck,
   faGlobe,
   faCompassDrafting,
   faStar,
@@ -44,6 +45,7 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* add icons to the library */
 library.add(
+  faCheck,
   faWifi,
   faHeartPulse,
   faGlobe,

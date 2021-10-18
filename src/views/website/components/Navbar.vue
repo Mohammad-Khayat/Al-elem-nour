@@ -93,7 +93,7 @@
             <b-nav-item class="text-dark" to="/home">
             <div class="d-flex flex-column justify-content-start align-items-center position-relative" style="bottom:12px;" >
               <b-link to="/panda">
-              <fa icon='fas fa-star' class=" star nav-link" wdith='5px'></fa>
+              <fa icon='fas fa-star' class=" star nav-link router-link-exatct-acitve router-link-exact-active" wdith='5px'></fa>
               </b-link>
               <b-link to="/panda" class="nav-link" >أنا والباندا</b-link>
             </div>

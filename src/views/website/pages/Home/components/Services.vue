@@ -2,7 +2,7 @@
   <div>
     <b-container>
       <b-row>
-        <b-col>
+        <b-col cols="12" lg="6">
           <b-row>
             <b-col cols="12">
               <div class="flex-col-start h-100">
@@ -14,9 +14,9 @@
                 </p>
               </div>
             </b-col>
-            <b-col cols="12">
+            <b-col cols="12" lg="6">
               <div class="flex-col-start h-100">
-                <svg
+                <svg class="m-auto"
                   id="Layer_1"
                   height="300px"
                   data-name="Layer  1"
@@ -713,8 +713,8 @@
           </b-row>
         </b-col>
         <b-col>
-          <b-row cols="2">
-            <b-col class="my-3">
+          <b-row cols="1" cols-md="2" >
+            <b-col class="my-3" data-aos-duration='1000' data-aos='fade-down-left'>
               <div
                 class="
                   bg-light
@@ -736,7 +736,7 @@
                 </p>
               </div>
             </b-col>
-            <b-col class="my-3">
+            <b-col class="my-3" data-aos-duration='1000' data-aos='fade-down-right'>
               <div
                 class="
                   bg-light
@@ -758,7 +758,7 @@
                 </p>
               </div>
             </b-col>
-            <b-col class="my-3">
+            <b-col class="my-3" data-aos-duration='1000' data-aos='fade-up-left'>
               <div
                 class="
                   bg-light
@@ -780,7 +780,7 @@
                 </p>
               </div>
             </b-col>
-            <b-col class="my-3">
+            <b-col class="my-3" data-aos-duration='1000' data-aos='fade-up-right'>
               <div
                 class="
                   bg-light
@@ -810,7 +810,12 @@
 </template>
 
 <script>
-export default {};
+import aos from 'aos'
+export default {
+  created(){
+    aos.init();
+  }
+};
 </script>
 
 <style lang='scss'>
