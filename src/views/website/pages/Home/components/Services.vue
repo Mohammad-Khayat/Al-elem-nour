@@ -4,7 +4,7 @@
       <b-row>
         <b-col cols="12" lg="6">
           <b-row>
-            <b-col cols="12">
+            <b-col cols="12" data-aos='fade-down'>
               <div class="flex-col-start h-100">
                 <h2 class="text-right text-gray align-items-flex">خدماتنا</h2>
                 <p class="g2">
@@ -14,7 +14,7 @@
                 </p>
               </div>
             </b-col>
-            <b-col cols="12" lg="6">
+            <b-col cols="12" lg="6" data-aos='fade-up'>
               <div class="flex-col-start h-100">
                 <svg class="m-auto"
                   id="Layer_1"
@@ -717,7 +717,6 @@
             <b-col class="my-3" data-aos-duration='1000' data-aos='fade-down-left'>
               <div
                 class="
-                  bg-light
                   shadow
                   px-5
                   py-3
@@ -739,7 +738,6 @@
             <b-col class="my-3" data-aos-duration='1000' data-aos='fade-down-right'>
               <div
                 class="
-                  bg-light
                   shadow
                   px-5
                   py-3
@@ -761,8 +759,7 @@
             <b-col class="my-3" data-aos-duration='1000' data-aos='fade-up-left'>
               <div
                 class="
-                  bg-light
-                  shadow
+                   shadow
                   px-5
                   py-3
                   rounded
@@ -783,7 +780,6 @@
             <b-col class="my-3" data-aos-duration='1000' data-aos='fade-up-right'>
               <div
                 class="
-                  bg-light
                   shadow
                   px-5
                   py-3
@@ -829,6 +825,8 @@ export default {
   .serv-card{
     transition: .5s;
     border-radius: 20px !important;
+    background-color: rgba(255, 255, 255, 0.699);
+    backdrop-filter: blur(5px);
     &:hover{
       transform: scale(1.1 , 1.1);
       &::after{
