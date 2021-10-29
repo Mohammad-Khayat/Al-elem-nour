@@ -827,28 +827,24 @@ export default {
     border-radius: 20px !important;
     background-color: rgba(255, 255, 255, 0.699);
     backdrop-filter: blur(5px);
+
+    &::after{
+     content: '';
+    transition:  .5s ease ;
+    width: 10%;
+    }
+
     &:hover{
       transform: scale(1.1 , 1.1);
       &::after{
-        position: absolute;
         top: 97%;
-        transition: .5s ease;
-        content: '';
         width: 90%;
         height: 5px;
         border-radius: 25px;
         background-color: #FFCE00;
-        animation: ainmate .5s ;
+        position: absolute;
       }
     }
   }
-  @keyframes ainmate {
-    from{
-      width: 1px;
-
-    }
-    to{
-      width: 90%;
-    }
-  }
+ 
 </style>

@@ -1,7 +1,11 @@
 <template>
   <div>
     <navbar></navbar>
-    <router-view></router-view>
+<router-view v-slot="{ Component }">
+  <transition name="router">
+    <component :is="Component" />
+  </transition>
+</router-view>
     <footer></footer>
   </div>
 </template>
@@ -25,4 +29,27 @@ export default {
 </script>
 
 <style>
+
+.router-enter-active{
+
+  animation: routerAnimation 1s ease-in-out;
+}
+.router-leave-active{
+  animation: routerAnimation 1s ease-in-out reverse ;
+}
+
+
+@keyframes routerAnimation {
+  from{
+  transform: scale(0);
+  opacity: 0;
+  }
+  to{
+
+    transform: scale(1);
+    opacity: 1;
+  }
+    
+}
+
 </style>

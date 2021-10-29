@@ -36,18 +36,18 @@
                 justify-content-start
               "
             >
-              <h1 class="text-light">مؤسسة العلم نور</h1>
+              <h1 class="text-light">دار العِلمُ نُور</h1>
               <p>
                 أحصل على
                 <span class="text-custom-yello mx-50">
-                  <strong> أنا والباندا </strong></span
-                >
+                  <strong> أنا والباندا </strong></span>
                 <br />
                 سلسلة تكون من ثلاث مستويات لمرحلة رياض الاطفال تتميز بشموليّتها
                 للمهاراتِ الأساسيّة للطفل
               </p>
               <b-button
-                class="back-yello b-0 text-light rounded-pill text-gray"
+              to="/panda"
+                class="back-yello b-0 rounded-pill  see-more"
               >
                 اقرأ تفاصيل المنهج
               </b-button>
@@ -96,12 +96,18 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../../../../assets/variables.scss";
+@import "@/assets/variables.scss";
 p,
 li {
   color: #8f8f8f;
 }
 .landing {
+.see-more{
+  color: #2b2b2b !important;
+  &:hover{
+    color: #2b2b2b !important;
+  }
+}
   min-height: 100vh;
   @media (max-width: 767px) {
     svg {

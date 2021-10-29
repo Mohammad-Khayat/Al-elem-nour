@@ -21,7 +21,11 @@
                       منهج شامل متكامل لجيل واعد متعلم ... وهو منهج يساعد المعلم
                       والمربي على تعليم الأطفال بطريقة تفاعلية ممتعة...
                     </p>
-                    <b-button variant="custom-yello" class="rounded-pill">
+                    <b-button
+                      variant="custom-yello"
+                      class="rounded-pill"
+                      href="#info"
+                    >
                       عرض العناصر
                     </b-button>
                   </div>
@@ -1175,7 +1179,7 @@
         </b-container>
       </section>
       <div class="svg-bg3">
-        <section class="the-products my-5">
+        <section class="the-products my-5" id="info">
           <h3 class="text-custom-yello text-center" data-aos="zoom-in">
             ماذا يحتوي كل مستوى ؟
           </h3>
@@ -1183,34 +1187,6 @@
             <b-row>
               <b-col data-aos="zoom-in-left" cols="12" md="6" class="my-3">
                 <div class="d-flex">
-                  <svg
-                    width="125"
-                    height="250"
-                    viewBox="0 0 75 153"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="position-absolute pen"
-                  >
-                    <g clip-path="url(#clip0_8:14)">
-                      <path
-                        d="M74.8455 3.59867C74.8455 3.59867 74.8453 3.60242 74.8415 3.60222C74.8334 3.61309 74.8093 3.64195 74.7695 3.68127C74.7536 3.6955 74.7374 3.71725 74.7213 3.73523C72.3038 6.42484 70.1823 8.93813 68.3106 11.2915C68.266 11.3494 68.2174 11.4108 68.1727 11.4725C64.9268 15.6179 61.1093 20.9992 58.1873 26.6171C58.1707 26.6464 58.1578 26.6759 58.1412 26.7051C56.9643 29.0318 56.066 31.1549 55.3297 33.1396C52.6653 40.3435 52.1538 45.7105 48.442 51.9985C44.9956 57.837 41.4598 62.6077 37.9723 67.1095C30.5425 76.7219 23.3585 85.13 17.8736 100.197C9.49995 123.201 19.784 149.944 19.9542 150.353C14.1145 116.596 26.7463 102.277 45.6879 92.489C41.6716 94.5647 31.7717 95.5318 31.4183 95.5844C47.1554 90.2948 52.3089 80.8915 52.3089 80.8915C40.9406 87.0761 38.0641 85.9749 38.0641 85.9749C55.9049 78.2918 65.641 62.3157 65.641 62.3157C56.4916 69.8488 51.9726 69.643 51.8899 69.6386C60.1394 65.5893 66.8239 58.8282 68.5369 50.5363C70.2963 42.0133 67.7442 39.9947 67.8021 29.4762C67.8683 18.5924 74.8455 3.59867 74.8455 3.59867Z"
-                        fill="#FFD400"
-                      />
-                      <path
-                        d="M68.1727 11.4688C64.9268 15.6142 61.1094 20.9955 58.1874 26.6135C60.3543 22.3497 63.4502 17.4196 68.1727 11.4688Z"
-                        fill="#FFD400"
-                      />
-                      <path
-                        d="M52.2961 18.8602C52.1536 23.0446 49.7375 29.9075 49.5912 30.3143C50.2506 26.7496 49.583 21.3718 49.583 21.3718L41.1971 30.1939C41.9763 38.6765 39.484 51.6387 39.484 51.6387C39.6785 45.4402 37.6818 37.94 37.6818 37.94C33.6445 52.93 7.40874 59.3882 3.82104 83.0316C0.505945 104.903 12.1525 113.978 12.1525 113.978C17.0341 73.1727 44.0105 62.6906 55.3329 33.1494C55.8107 31.9047 56.3069 30.5291 56.9933 29.0506C57.3557 28.2709 57.7408 27.4886 58.1443 26.7149C58.1572 26.6855 58.1701 26.656 58.1905 26.627C61.1124 21.009 64.9299 15.6277 68.1758 11.4823C68.2205 11.4207 68.2691 11.3592 68.3137 11.3013C71.5181 7.22528 74.1247 4.38376 74.7244 3.74503C74.7404 3.72705 74.7567 3.7053 74.7725 3.69107C74.8086 3.65155 74.8365 3.62289 74.8446 3.61202C68.4007 7.16667 52.2961 18.8602 52.2961 18.8602ZM10.0673 103.925C-3.02606 74.6217 28.2442 58.4485 28.2442 58.4485C3.53388 78.5677 10.0673 103.925 10.0673 103.925Z"
-                        fill="#58595B"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_8:14">
-                        <rect width="75" height="152.928" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
                   <b-card
                     body-class="p-0"
                     class="border-custom-yello shadow w-100"
@@ -1229,44 +1205,16 @@
                         <books :images="mainBooks" class="my-4 books"></books>
                       </b-col>
                     </b-row>
-                    <span class="shadowSpan1"></span>
-                    <span class="shadowSpan2"></span>
-                    <span class="shadowSpan3"></span>
-                    <span class="shadowSpan4"></span>
+                    <span class="shadowSpan1 rounded-circle"></span>
+                    <span class="shadowSpan2 rounded-circle"></span>
+                    <span class="shadowSpan3 rounded-circle"></span>
+                    <span class="shadowSpan4 rounded-circle"></span>
                   </b-card>
                 </div>
               </b-col>
 
               <b-col data-aos="zoom-in-right" cols="12" md="6" class="my-3">
                 <div class="d-flex">
-                  <svg
-                    width="125"
-                    height="250"
-                    viewBox="0 0 75 153"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="position-absolute pen"
-                  >
-                    <g clip-path="url(#clip0_8:14)">
-                      <path
-                        d="M74.8455 3.59867C74.8455 3.59867 74.8453 3.60242 74.8415 3.60222C74.8334 3.61309 74.8093 3.64195 74.7695 3.68127C74.7536 3.6955 74.7374 3.71725 74.7213 3.73523C72.3038 6.42484 70.1823 8.93813 68.3106 11.2915C68.266 11.3494 68.2174 11.4108 68.1727 11.4725C64.9268 15.6179 61.1093 20.9992 58.1873 26.6171C58.1707 26.6464 58.1578 26.6759 58.1412 26.7051C56.9643 29.0318 56.066 31.1549 55.3297 33.1396C52.6653 40.3435 52.1538 45.7105 48.442 51.9985C44.9956 57.837 41.4598 62.6077 37.9723 67.1095C30.5425 76.7219 23.3585 85.13 17.8736 100.197C9.49995 123.201 19.784 149.944 19.9542 150.353C14.1145 116.596 26.7463 102.277 45.6879 92.489C41.6716 94.5647 31.7717 95.5318 31.4183 95.5844C47.1554 90.2948 52.3089 80.8915 52.3089 80.8915C40.9406 87.0761 38.0641 85.9749 38.0641 85.9749C55.9049 78.2918 65.641 62.3157 65.641 62.3157C56.4916 69.8488 51.9726 69.643 51.8899 69.6386C60.1394 65.5893 66.8239 58.8282 68.5369 50.5363C70.2963 42.0133 67.7442 39.9947 67.8021 29.4762C67.8683 18.5924 74.8455 3.59867 74.8455 3.59867Z"
-                        fill="#FFD400"
-                      />
-                      <path
-                        d="M68.1727 11.4688C64.9268 15.6142 61.1094 20.9955 58.1874 26.6135C60.3543 22.3497 63.4502 17.4196 68.1727 11.4688Z"
-                        fill="#FFD400"
-                      />
-                      <path
-                        d="M52.2961 18.8602C52.1536 23.0446 49.7375 29.9075 49.5912 30.3143C50.2506 26.7496 49.583 21.3718 49.583 21.3718L41.1971 30.1939C41.9763 38.6765 39.484 51.6387 39.484 51.6387C39.6785 45.4402 37.6818 37.94 37.6818 37.94C33.6445 52.93 7.40874 59.3882 3.82104 83.0316C0.505945 104.903 12.1525 113.978 12.1525 113.978C17.0341 73.1727 44.0105 62.6906 55.3329 33.1494C55.8107 31.9047 56.3069 30.5291 56.9933 29.0506C57.3557 28.2709 57.7408 27.4886 58.1443 26.7149C58.1572 26.6855 58.1701 26.656 58.1905 26.627C61.1124 21.009 64.9299 15.6277 68.1758 11.4823C68.2205 11.4207 68.2691 11.3592 68.3137 11.3013C71.5181 7.22528 74.1247 4.38376 74.7244 3.74503C74.7404 3.72705 74.7567 3.7053 74.7725 3.69107C74.8086 3.65155 74.8365 3.62289 74.8446 3.61202C68.4007 7.16667 52.2961 18.8602 52.2961 18.8602ZM10.0673 103.925C-3.02606 74.6217 28.2442 58.4485 28.2442 58.4485C3.53388 78.5677 10.0673 103.925 10.0673 103.925Z"
-                        fill="#58595B"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_8:14">
-                        <rect width="75" height="152.928" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
                   <b-card
                     body-class="p-0"
                     class="border-custom-yello shadow w-100"
@@ -1284,44 +1232,16 @@
                         <books :images="lang" class="my-4 books"></books>
                       </b-col>
                     </b-row>
-                    <span class="shadowSpan1"></span>
-                    <span class="shadowSpan2"></span>
-                    <span class="shadowSpan3"></span>
-                    <span class="shadowSpan4"></span>
+                    <span class="shadowSpan1 rounded-circle"></span>
+                    <span class="shadowSpan2 rounded-circle"></span>
+                    <span class="shadowSpan3 rounded-circle"></span>
+                    <span class="shadowSpan4 rounded-circle"></span>
                   </b-card>
                 </div>
               </b-col>
 
               <b-col data-aos="zoom-in-left" cols="12" md="6" class="my-3">
                 <div class="d-flex">
-                  <svg
-                    width="125"
-                    height="250"
-                    viewBox="0 0 75 153"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="position-absolute pen"
-                  >
-                    <g clip-path="url(#clip0_8:14)">
-                      <path
-                        d="M74.8455 3.59867C74.8455 3.59867 74.8453 3.60242 74.8415 3.60222C74.8334 3.61309 74.8093 3.64195 74.7695 3.68127C74.7536 3.6955 74.7374 3.71725 74.7213 3.73523C72.3038 6.42484 70.1823 8.93813 68.3106 11.2915C68.266 11.3494 68.2174 11.4108 68.1727 11.4725C64.9268 15.6179 61.1093 20.9992 58.1873 26.6171C58.1707 26.6464 58.1578 26.6759 58.1412 26.7051C56.9643 29.0318 56.066 31.1549 55.3297 33.1396C52.6653 40.3435 52.1538 45.7105 48.442 51.9985C44.9956 57.837 41.4598 62.6077 37.9723 67.1095C30.5425 76.7219 23.3585 85.13 17.8736 100.197C9.49995 123.201 19.784 149.944 19.9542 150.353C14.1145 116.596 26.7463 102.277 45.6879 92.489C41.6716 94.5647 31.7717 95.5318 31.4183 95.5844C47.1554 90.2948 52.3089 80.8915 52.3089 80.8915C40.9406 87.0761 38.0641 85.9749 38.0641 85.9749C55.9049 78.2918 65.641 62.3157 65.641 62.3157C56.4916 69.8488 51.9726 69.643 51.8899 69.6386C60.1394 65.5893 66.8239 58.8282 68.5369 50.5363C70.2963 42.0133 67.7442 39.9947 67.8021 29.4762C67.8683 18.5924 74.8455 3.59867 74.8455 3.59867Z"
-                        fill="#FFD400"
-                      />
-                      <path
-                        d="M68.1727 11.4688C64.9268 15.6142 61.1094 20.9955 58.1874 26.6135C60.3543 22.3497 63.4502 17.4196 68.1727 11.4688Z"
-                        fill="#FFD400"
-                      />
-                      <path
-                        d="M52.2961 18.8602C52.1536 23.0446 49.7375 29.9075 49.5912 30.3143C50.2506 26.7496 49.583 21.3718 49.583 21.3718L41.1971 30.1939C41.9763 38.6765 39.484 51.6387 39.484 51.6387C39.6785 45.4402 37.6818 37.94 37.6818 37.94C33.6445 52.93 7.40874 59.3882 3.82104 83.0316C0.505945 104.903 12.1525 113.978 12.1525 113.978C17.0341 73.1727 44.0105 62.6906 55.3329 33.1494C55.8107 31.9047 56.3069 30.5291 56.9933 29.0506C57.3557 28.2709 57.7408 27.4886 58.1443 26.7149C58.1572 26.6855 58.1701 26.656 58.1905 26.627C61.1124 21.009 64.9299 15.6277 68.1758 11.4823C68.2205 11.4207 68.2691 11.3592 68.3137 11.3013C71.5181 7.22528 74.1247 4.38376 74.7244 3.74503C74.7404 3.72705 74.7567 3.7053 74.7725 3.69107C74.8086 3.65155 74.8365 3.62289 74.8446 3.61202C68.4007 7.16667 52.2961 18.8602 52.2961 18.8602ZM10.0673 103.925C-3.02606 74.6217 28.2442 58.4485 28.2442 58.4485C3.53388 78.5677 10.0673 103.925 10.0673 103.925Z"
-                        fill="#58595B"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_8:14">
-                        <rect width="75" height="152.928" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
                   <b-card
                     body-class="p-0"
                     class="border-custom-yello shadow w-100"
@@ -1340,10 +1260,10 @@
                       <b-col>
                         <books :images="teacher" class="my-4 books"></books>
                       </b-col>
-                      <span class="shadowSpan1"></span>
-                      <span class="shadowSpan2"></span>
-                      <span class="shadowSpan3"></span>
-                      <span class="shadowSpan4"></span>
+                      <span class="shadowSpan1 rounded-circle"></span>
+                      <span class="shadowSpan2 rounded-circle"></span>
+                      <span class="shadowSpan3 rounded-circle"></span>
+                      <span class="shadowSpan4 rounded-circle"></span>
                     </b-row>
                   </b-card>
                 </div>
@@ -1351,34 +1271,6 @@
 
               <b-col data-aos="zoom-in-right" cols="12" md="6" class="my-3">
                 <div class="d-flex">
-                  <svg
-                    width="125"
-                    height="250"
-                    viewBox="0 0 75 153"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="position-absolute pen"
-                  >
-                    <g clip-path="url(#clip0_8:14)">
-                      <path
-                        d="M74.8455 3.59867C74.8455 3.59867 74.8453 3.60242 74.8415 3.60222C74.8334 3.61309 74.8093 3.64195 74.7695 3.68127C74.7536 3.6955 74.7374 3.71725 74.7213 3.73523C72.3038 6.42484 70.1823 8.93813 68.3106 11.2915C68.266 11.3494 68.2174 11.4108 68.1727 11.4725C64.9268 15.6179 61.1093 20.9992 58.1873 26.6171C58.1707 26.6464 58.1578 26.6759 58.1412 26.7051C56.9643 29.0318 56.066 31.1549 55.3297 33.1396C52.6653 40.3435 52.1538 45.7105 48.442 51.9985C44.9956 57.837 41.4598 62.6077 37.9723 67.1095C30.5425 76.7219 23.3585 85.13 17.8736 100.197C9.49995 123.201 19.784 149.944 19.9542 150.353C14.1145 116.596 26.7463 102.277 45.6879 92.489C41.6716 94.5647 31.7717 95.5318 31.4183 95.5844C47.1554 90.2948 52.3089 80.8915 52.3089 80.8915C40.9406 87.0761 38.0641 85.9749 38.0641 85.9749C55.9049 78.2918 65.641 62.3157 65.641 62.3157C56.4916 69.8488 51.9726 69.643 51.8899 69.6386C60.1394 65.5893 66.8239 58.8282 68.5369 50.5363C70.2963 42.0133 67.7442 39.9947 67.8021 29.4762C67.8683 18.5924 74.8455 3.59867 74.8455 3.59867Z"
-                        fill="#FFD400"
-                      />
-                      <path
-                        d="M68.1727 11.4688C64.9268 15.6142 61.1094 20.9955 58.1874 26.6135C60.3543 22.3497 63.4502 17.4196 68.1727 11.4688Z"
-                        fill="#FFD400"
-                      />
-                      <path
-                        d="M52.2961 18.8602C52.1536 23.0446 49.7375 29.9075 49.5912 30.3143C50.2506 26.7496 49.583 21.3718 49.583 21.3718L41.1971 30.1939C41.9763 38.6765 39.484 51.6387 39.484 51.6387C39.6785 45.4402 37.6818 37.94 37.6818 37.94C33.6445 52.93 7.40874 59.3882 3.82104 83.0316C0.505945 104.903 12.1525 113.978 12.1525 113.978C17.0341 73.1727 44.0105 62.6906 55.3329 33.1494C55.8107 31.9047 56.3069 30.5291 56.9933 29.0506C57.3557 28.2709 57.7408 27.4886 58.1443 26.7149C58.1572 26.6855 58.1701 26.656 58.1905 26.627C61.1124 21.009 64.9299 15.6277 68.1758 11.4823C68.2205 11.4207 68.2691 11.3592 68.3137 11.3013C71.5181 7.22528 74.1247 4.38376 74.7244 3.74503C74.7404 3.72705 74.7567 3.7053 74.7725 3.69107C74.8086 3.65155 74.8365 3.62289 74.8446 3.61202C68.4007 7.16667 52.2961 18.8602 52.2961 18.8602ZM10.0673 103.925C-3.02606 74.6217 28.2442 58.4485 28.2442 58.4485C3.53388 78.5677 10.0673 103.925 10.0673 103.925Z"
-                        fill="#58595B"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_8:14">
-                        <rect width="75" height="152.928" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
                   <b-card
                     body-class="p-0"
                     class="border-custom-yello shadow w-100 "
@@ -1395,10 +1287,177 @@
                       <b-col>
                         <books :images="train" class="my-4 books"></books>
                       </b-col>
-                      <span class="shadowSpan1"></span>
-                      <span class="shadowSpan2"></span>
-                      <span class="shadowSpan3"></span>
-                      <span class="shadowSpan4"></span>
+                      <span class="shadowSpan1 rounded-circle"></span>
+                      <span class="shadowSpan2 rounded-circle"></span>
+                      <span class="shadowSpan3 rounded-circle"></span>
+                      <span class="shadowSpan4 rounded-circle"></span>
+                    </b-row>
+                  </b-card>
+                </div>
+              </b-col>
+
+              <b-col data-aos="zoom-in-left" cols="12" md="6" class="my-3">
+                <div class="d-flex">
+                  <b-card
+                    body-class="p-0"
+                    class="border-custom-yello shadow w-100 "
+                  >
+                    <b-row>
+                      <b-col>
+                        <div class="caption h-100 ">
+                          <h4 class="text-center ">وسائل تعليميّة</h4>
+                          <span class="text-center">
+                            تُغطي الخبرات وتدعمُ الأنشطةِ وَفْقًا لأحدثِ
+                            الطُّرُقِ والأساليبِ التَّربويّة
+                          </span>
+                        </div>
+                      </b-col>
+                      <b-col>
+                        <books class="my-4 books"></books>
+                      </b-col>
+                      <span class="shadowSpan1 rounded-circle"></span>
+                      <span class="shadowSpan2 rounded-circle"></span>
+                      <span class="shadowSpan3 rounded-circle"></span>
+                      <span class="shadowSpan4 rounded-circle"></span>
+                    </b-row>
+                  </b-card>
+                </div>
+              </b-col>
+
+              <b-col data-aos="zoom-in-right" cols="12" md="6" class="my-3">
+                <div class="d-flex">
+                  <b-card
+                    body-class="p-0"
+                    class="border-custom-yello shadow w-100 "
+                  >
+                    <b-row>
+                      <b-col>
+                        <div class="caption h-100 ">
+                          <h4 class="text-center ">ألعابٌ تعزيزّيَّة</h4>
+                          <span class="text-center"
+                            >ألعابٌ تعزيزّيَّة للمِهارات والعلوم المُكتسبة.
+                          </span>
+                        </div>
+                      </b-col>
+                      <b-col>
+                        <books class="my-4 books"></books>
+                      </b-col>
+                      <span class="shadowSpan1 rounded-circle"></span>
+                      <span class="shadowSpan2 rounded-circle"></span>
+                      <span class="shadowSpan3 rounded-circle"></span>
+                      <span class="shadowSpan4 rounded-circle"></span>
+                    </b-row>
+                  </b-card>
+                </div>
+              </b-col>
+
+              <b-col data-aos="zoom-in-right" cols="12" md="6" class="my-3">
+                <div class="d-flex">
+                  <b-card
+                    body-class="p-0"
+                    class="border-custom-yello shadow w-100 "
+                  >
+                    <b-row>
+                      <b-col>
+                        <div class="caption h-100 ">
+                          <h4 class="text-center ">مشاريع تشويقيّة مهاريّة</h4>
+                          <span class="text-center">
+                            تزوّد الطِّفلَ بالإبحارِ في عالم التَّجربة
+                            والاكتشافِ وتعطيهِ فُرصةً لتنمية فكرهِ وعقله
+                          </span>
+                        </div>
+                      </b-col>
+                      <b-col>
+                        <books class="my-4 books"></books>
+                      </b-col>
+                      <span class="shadowSpan1 rounded-circle"></span>
+                      <span class="shadowSpan2 rounded-circle"></span>
+                      <span class="shadowSpan3 rounded-circle"></span>
+                      <span class="shadowSpan4 rounded-circle"></span>
+                    </b-row>
+                  </b-card>
+                </div>
+              </b-col>
+
+              <b-col data-aos="zoom-in-right" cols="12" md="6" class="my-3">
+                <div class="d-flex">
+                  <b-card
+                    body-class="p-0"
+                    class="border-custom-yello shadow w-100 "
+                  >
+                    <b-row>
+                      <b-col>
+                        <div class="caption h-100 ">
+                          <h4 class="text-center ">موقع الكتروني داعم</h4>
+                          <span class="text-center">
+                            مُزوَّدٌ بالمواد والمُلحقاتِ التَّعليّمةِ الهامَّة
+                          </span>
+                        </div>
+                      </b-col>
+                      <b-col>
+                        <books class="my-4 books"></books>
+                      </b-col>
+                      <span class="shadowSpan1 rounded-circle"></span>
+                      <span class="shadowSpan2 rounded-circle"></span>
+                      <span class="shadowSpan3 rounded-circle"></span>
+                      <span class="shadowSpan4 rounded-circle"></span>
+                    </b-row>
+                  </b-card>
+                </div>
+              </b-col>
+
+              <b-col data-aos="zoom-in-right" cols="12" md="6" class="my-3">
+                <div class="d-flex">
+                  <b-card
+                    body-class="p-0"
+                    class="border-custom-yello shadow w-100 "
+                  >
+                    <b-row>
+                      <b-col>
+                        <div class="caption h-100 ">
+                          <h4 class="text-center ">
+                            منهجٌ مُختصرٌ عَنْ (أنا والباندا)
+                          </h4>
+                          <span class="text-center">
+                            يُناسبُ مُدَّةَ الصَّيفِ الجميلةِ، ويُغني الطِّفلَ
+                            بما يُلزمهُ خلالَ النَّادي الصَّيفيّ.
+                          </span>
+                        </div>
+                      </b-col>
+                      <b-col>
+                        <books class="my-4 books"></books>
+                      </b-col>
+                      <span class="shadowSpan1 rounded-circle"></span>
+                      <span class="shadowSpan2 rounded-circle"></span>
+                      <span class="shadowSpan3 rounded-circle"></span>
+                      <span class="shadowSpan4 rounded-circle"></span>
+                    </b-row>
+                  </b-card>
+                </div>
+              </b-col>
+              <b-col data-aos="zoom-in-right" cols="12" md="6" class="my-3">
+                <div class="d-flex">
+                  <b-card
+                    body-class="p-0"
+                    class="border-custom-yello shadow w-100 "
+                  >
+                    <b-row>
+                      <b-col>
+                        <div class="caption h-100 ">
+                          <h4 class="text-center ">خدمة مابعد البيع</h4>
+                          <span class="text-center">
+                            تميزُ بتكامل خدمة ما بعد البيعِ بكادرٍ مُتكامِلٍ
+                            يعملُ دونَ كَلَلٍ.
+                          </span>
+                        </div>
+                      </b-col>
+                      <b-col>
+                        <books class="my-4 books"></books>
+                      </b-col>
+                      <span class="shadowSpan1 rounded-circle"></span>
+                      <span class="shadowSpan2 rounded-circle"></span>
+                      <span class="shadowSpan3 rounded-circle"></span>
+                      <span class="shadowSpan4 rounded-circle"></span>
                     </b-row>
                   </b-card>
                 </div>
@@ -1555,7 +1614,7 @@ p {
     }
     &:hover {
       h5 {
-        color: #fff;
+        color: #fff !important;
       }
       .clr1 {
         box-shadow: 0px 0px 5px 500px #ba0066;
@@ -1679,15 +1738,14 @@ p {
     display: flex;
     align-items: center;
     color: #777 !important;
-    // svg {
-    //   background-color: green !important;
-    //   color: #fff;
-    //   padding: 3px;
-    //   height: 20px;
-    //   border-radius: 50%;
-    //   margin-left: 10px;
-    //   margin-right: 10px;
-    // }
+    svg {
+      color: #fff;
+      padding: 3px;
+      height: 50px;
+      border-radius: 50%;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
 }
 
@@ -1698,6 +1756,7 @@ p {
   justify-content: center;
   h4 {
     color: #444444;
+    transition: 0.5s;
   }
   span {
     color: #777;
@@ -1707,7 +1766,7 @@ p {
 .svg-bg2 {
   padding: 100px 0;
   background-image: url("/images/bg2.svg");
-  // background-position-x: center;
+  background-position-x: center;
   background-repeat: no-repeat;
   background-size: 150vw;
   transition: 1s;
@@ -1719,9 +1778,6 @@ p {
   background-size: 100vw;
   background-size: 130vw;
   background-position: center;
-}
-.animated {
-  background-size: 100vw;
 }
 
 .svg-container {
@@ -1759,7 +1815,10 @@ p {
   &:hover {
     .caption {
       span {
-        color: #ccc;
+        color: #ccc !important;
+      }
+      h4 {
+        color: #ffd400;
       }
     }
     .shadowSpan1 {
@@ -1783,13 +1842,14 @@ p {
 .shadowSpan1 {
   position: absolute;
   transition: 2s linear;
+
   bottom: 0;
   right: 0;
   z-index: 0;
   box-shadow: 0px 0px 0px 0px #5a5a5a;
-  height: 1px;
-  width: 1px;
-  border-radius: 50%;
+  height: 5px !important;
+  width: 5px !important;
+  border-radius: 50% !important;
   background-color: #fff;
 }
 .shadowSpan2 {
